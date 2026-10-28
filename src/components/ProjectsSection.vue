@@ -116,14 +116,14 @@
     </div>
 
     <ProjectModal :project="selectedProject" @close="selectedProject = null" />
-    <FloatingContactBar :visible="showContactBar" />
+    <FloatingcontactBar :visible="showContactBar" />
   </section>
 </template>
 
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import ProjectModal from './ProjectModal.vue'
-import FloatingContactBar from './FloatingContactBar.vue'
+import FloatingcontactBar from './FloatingcontactBar.vue'
 import tahappengebanganImg from '../assets/gambar/Tahap Pengembangan.jpg'
 import chaalonImg from '../assets/gambar/ChaaLon.jpg'
 import emlearnImg from '../assets/gambar/Emlearn.jpg'
