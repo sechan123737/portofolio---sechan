@@ -81,28 +81,28 @@ const categories = [
     label: 'Web & Backend',
     skills: ['Vue 3', 'Pinia', 'Tailwind CSS', 'React (Vite)', 'Laravel 11', 'Supabase', 'PHP / MariaDB'],
     description: 'Fokus utama dari sebagian besar project — mulai dari desain skema database, RLS policy, sampai deploy ke production. Terbiasa membangun full-stack dengan Vue 3 + Supabase untuk project independen, serta React + Laravel untuk sistem berbasis role seperti CMMS.',
-    related: ['ChaaLon', 'CMMS', 'EMLearnHUB', 'PAI HUB'],
+    related: ['ChaaLon', 'EMLearnHUB', 'PAI HUB', 'Warkop', 'CMMS'],
   },
   {
     key: 'mobile',
     label: 'Mobile',
     skills: ['Flutter', 'Capacitor', 'Android Build'],
     description: 'Membungkus aplikasi web menjadi build Android lewat Capacitor, atau membangun langsung dengan Flutter — termasuk sistem kasir dua peran dan aplikasi booking dengan dashboard admin responsif.',
-    related: ['ChaaLon', 'Warung Kopi Cashier'],
+    related: ['ChaaLon', 'EMLearnHUB', 'PAI HUB'],
   },
   {
     key: 'iot',
     label: 'IoT Engineering',
     skills: ['NodeMCU ESP8266', 'ESP32', 'WeMos D1 Mini', 'Servo SG90', 'Blynk'],
     description: 'Merancang sistem berbasis sensor dari nol: wiring, firmware, sampai integrasi notifikasi lewat Blynk — dikerjakan bersama Kelompok 6 untuk tiga sistem berbeda, lengkap dengan dokumentasi teknis.',
-    related: ['IoT Systems (Kelompok 6)'],
+    related: ['IoT Systems Jemuran Otomatis'],
   },
   {
     key: 'design',
     label: 'Design Grafis',
     skills: ['Canva'],
     description: 'Membuat aset visual dan materi pendukung menggunakan Canva — mulai dari poster, konten presentasi, sampai elemen visual untuk mendukung project web dan mobile yang dikerjakan.',
-    related: ['Feeds KKN'],
+    related: ['Design Grafis'],
   },
 ]
 

@@ -34,8 +34,17 @@
         </div>
 
         <div class="p-6 sm:p-8">
-          <div class="font-mono text-xs font-semibold uppercase tracking-wide text-lime">
-            {{ project.categoryLabel }}
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <div class="font-mono text-xs font-semibold uppercase tracking-wide text-lime">
+              {{ project.categoryLabel }}
+            </div>
+            <span
+              v-if="project.inProgress"
+              class="inline-flex items-center gap-1.5 rounded-full bg-amber-400/15 px-3 py-1 font-mono text-[10px] font-semibold uppercase tracking-wide text-amber-300"
+            >
+              <span class="h-1.5 w-1.5 animate-pulse rounded-full bg-amber-400"></span>
+              Dalam Pengembangan
+            </span>
           </div>
           <h3 class="mt-2 text-2xl font-bold text-onDark">{{ project.name }}</h3>
 
@@ -50,6 +59,11 @@
           </div>
 
           <p class="mt-5 text-onDarkDim">{{ project.description }}</p>
+
+          <p v-if="project.inProgress" class="mt-3 flex items-start gap-2 rounded-xl border border-amber-400/20 bg-amber-400/10 p-3 text-xs text-amber-200">
+            <span>⚠️</span>
+            <span>Project ini masih dalam tahap pengembangan aktif — fitur dan tampilan masih bisa berubah.</span>
+          </p>
 
           <div v-if="project.gallery?.length" class="mt-5">
             <div class="mb-3 font-mono text-xs font-semibold uppercase tracking-wide text-onDarkDim">

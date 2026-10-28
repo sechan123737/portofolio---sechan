@@ -65,6 +65,14 @@
               {{ p.categories[0] }}
             </span>
 
+            <span
+              v-if="p.inProgress"
+              class="absolute right-3 top-3 z-10 inline-flex items-center gap-1.5 rounded-full bg-amber-400/95 px-3 py-1 font-mono text-[10px] font-semibold uppercase tracking-wide text-ink shadow-sm"
+            >
+              <span class="h-1.5 w-1.5 animate-pulse rounded-full bg-ink"></span>
+              Dalam Pengembangan
+            </span>
+
             <template v-if="p.images && p.images.length">
               <img
                 v-for="img in p.images"
@@ -285,6 +293,7 @@ const projects = [
     chips: ['React', 'Laravel 11', 'Supabase'],
     repoUrl: 'https://github.com/Naces17/cmms-app',
     images: [tahappengebanganImg],
+    inProgress: true,
     details: [
       '4 dashboard role: Admin, Supervisor, Teknisi, Manager',
       'Modul mesin, work order, spare part, log maintenance, laporan kerusakan',
