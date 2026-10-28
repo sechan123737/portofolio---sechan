@@ -64,7 +64,8 @@
       <p v-reveal="{ delay: 200 }" class="-rotate-1 mt-5 flex flex-wrap items-center gap-x-2 gap-y-1 text-base font-semibold text-lime sm:text-lg">
         <span>Web Developer</span><span class="text-onDarkDim">•</span>
         <span>IoT Engineer</span><span class="text-onDarkDim">•</span>
-        <span>Mobile Developer</span>
+        <span>Mobile Developer</span><span class="text-onDarkDim">•</span>
+        <span>Design Grafis</span>
       </p>
 
       <p v-reveal="{ delay: 280 }" class="mt-5 max-w-[52ch] text-onDarkDim">

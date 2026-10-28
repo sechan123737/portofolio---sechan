@@ -26,9 +26,9 @@
           <dt class="whitespace-nowrap font-mono text-lime">Program</dt>
           <dd class="text-onDarkDim">Informatika</dd>
           <dt class="whitespace-nowrap font-mono text-lime">Fokus</dt>
-          <dd class="text-onDarkDim">Web, IoT, Mobile</dd>
+          <dd class="text-onDarkDim">Web, IoT, Mobile, Design Grafis</dd>
           <dt class="whitespace-nowrap font-mono text-lime">GitHub</dt>
-          <dd class="text-onDarkDim">github.com/Naces17</dd>
+          <dd class="text-onDarkDim">github.com/sechan123737</dd>
         </dl>
       </div>
     </div>
